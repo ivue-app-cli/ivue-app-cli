@@ -6,6 +6,7 @@ const inquirer = require('inquirer');
 const ora = require('ora');
 const Git = require('../tools/git');
 
+// 创建下载类，提供各种方法
 class Download {
     constructor() {
         this.git = new Git();
